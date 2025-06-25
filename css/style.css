@@ -34,7 +34,7 @@ img {
   font-weight: 200;
   font-style: normal;
   font-variation-settings:"wdth" 100;
-  font-size: clamp(2.25rem, 2rem + 2vw, 4rem);   /* ~36px–64px */
+  font-size: clamp(1.5rem, 1.5rem + 1.8vw, 4rem);   /* ~36px–64px */
   margin-bottom: 16px;
 }
 
@@ -444,6 +444,9 @@ img {
 .footer.defaultPadding {
   padding: 80px 0;
 }
+.bigPadding{
+   padding: 160px 0;
+}
 
 .fab-container {
   bottom: 24px;
@@ -752,3 +755,218 @@ color: var(--primary-color);
 .statisticsSection .container>.row{
   row-gap: 24px;
 }
+
+.NewBanner{
+  background: linear-gradient( to right,#ffffffb0 20%, #ffffffb0 45%  ) center/ cover, url("../image/AboutBannerBack.webp") center/cover no-repeat;
+  padding: 140px 0;
+  text-align: center;
+}
+.NewBanner.contactPage0{
+  background: linear-gradient( to right,#ffffffb0 20%, #ffffffb0 45%  ) center/ cover, url("../image/ContactBanner.webp") center/cover no-repeat;
+}
+
+.NewBanner .display-2{
+  display: table;
+  margin: auto;
+  position: relative;
+}
+
+.NewBanner .display-2::after{
+    content: "";
+    background: var(--primary-color);
+    height: 2px;
+    width: 80px;
+    position: absolute;
+    left: 0px;
+    bottom: -8px;
+    z-index: 1;
+}
+
+
+
+/* about Intro section start */
+.aboutIntro{
+  background: linear-gradient( to right,#ffffffb0 50%, #f71c52 45%  ) center/ cover;
+}
+.aboutIntro .container>.row{
+  align-items: center;
+  row-gap: 30px;
+}
+/* about Intro section end */
+
+/* Our Approach section start */
+.OurApproach{
+   background: linear-gradient( to right,#f71c52 50%, #ffffffb0 45%  ) center/ cover;
+}
+
+.OurApproach .container>.row{
+  align-items: center;
+  row-gap: 30px;
+}
+.ApproachText{
+  color: #ffffff;
+}
+.ApproachText .display-2 span{
+  color: var(--black);
+}
+/* Our Approach section end */
+
+/* Why Choose Empower Consultation start */
+.maxPara{
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.WhyChoose .container>.row{
+row-gap: 24px;
+}
+
+.cardsCols:nth-child(odd) .whyChooseCard{
+  background-color: var(--primary-color);
+}
+.cardsCols:nth-child(even) .whyChooseCard{
+  background-color: var(--secondary-color);
+}
+
+.whyChooseCard{
+  text-align: center;
+  padding: 12px;
+  color: #ffffff;
+  height: 100%;
+}
+.whyChooseCard .fifthH{
+  margin-top: 16px;
+  color: var(--black);
+  font-weight: 500;
+}
+/* Why Choose Empower Consultation end */
+
+
+
+
+
+.formPart {
+  padding: 60px;
+  background-color: var(--lightBg);
+  color: var(--black);
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.25);
+}
+.ContactForm input:not(.form-check-input),
+.ContactForm textarea {
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+  padding: 0 0 4px 0;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #0000001a;
+  background-color: #02010100;
+  margin-bottom: 24px;
+}
+.ContactForm .form-control:focus {
+  background-color: #02010100;
+  border-color: #0000001a;
+  outline: 0;
+  box-shadow: none;
+}
+.ContactForm .form-control.is-invalid:focus,
+.was-validated .form-control:invalid:focus {
+  box-shadow: none;
+}
+.ContactForm textarea {
+  resize: none;
+}
+.ContactForm textarea:focus-visible {
+  outline: none;
+}
+.ContactForm button {
+  border: none;
+}
+
+.ContactForm .input-group > .form-control,
+.input-group > .form-floating,
+.input-group > .form-select {
+  padding: 0 0 20px 0;
+}
+.form-control.is-valid:focus, .was-validated .form-control:valid:focus {
+  box-shadow: none;
+}
+
+.formSection.defaultPadding{
+  padding-bottom: 120px;
+}
+
+.formSection .modal-header {
+  justify-content: center;
+  position: relative;
+}
+.formSection .modal-header .btn-close {
+ margin: 0 !important;
+ position: absolute;
+ right: 14px;
+ top: 14px;
+}
+
+
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.option {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.option img {
+  width: 50px;
+  height: 50px;
+}
+
+
+
+/* map section  start */
+.mapSection{
+  background: linear-gradient(#000000c7 20%, #000000c7 45%  ) center/ cover, url('../image/mapImg.png') center center no-repeat;
+  background-size: cover;
+}
+
+.mapSection iframe{
+  aspect-ratio: 1;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.25);
+  margin-top: -150px;
+}
+
+
+.contactInfo{
+  background: #ffffffd6;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 24px;
+  justify-content: space-between;
+}
+
+.contactCard{
+  position: relative;
+  padding: 0 12px ;
+  display: flex;
+}
+.anchorAbs{
+  position: absolute;
+  inset: 0;
+}
+.contactText{
+  flex-shrink: 1;
+}
+.contactText p{
+  margin-bottom: 0;
+}
+.contactIco{
+  margin-right: 8px;
+}
+
+/* map section end */

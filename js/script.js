@@ -51,11 +51,11 @@ function loadHeaderFooter(callback) {
                       </span>
                     </a>
                     <ul class="dropdownList">
-                      <li class="navLi"><a href="#" class="navLink">LinkHere</a></li> 
+                      <li class="navLi"><a href="careerConsultancy.html" class="navLink">Career Consultancy</a></li> 
                       </ul>
                       </li>
 
-                      <li class="navLi"><a href="#" class="navLink">Contact</a></li>
+                      <li class="navLi"><a href="contact.html" class="navLink">Contact</a></li>
                       </ul>
     
                       </div>

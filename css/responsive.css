@@ -13,6 +13,13 @@
 }
 @media (max-width: 1199.98px) {
 
+  .aboutIntro{
+  background: linear-gradient( to right,#ffffffb0 57%, #f71c52 45%  ) center/ cover;
+}
+
+.OurApproach{
+   background: linear-gradient( to right,#f71c52 57%, #ffffffb0 45%  ) center/ cover;
+}
 
 }
 
@@ -81,6 +88,34 @@
 
 #testimonials{
   margin-top: 0;
+}
+
+.aboutIntro .container>.row{
+  flex-direction: column-reverse;
+}
+ .aboutIntro{
+  background: none;
+}
+
+.AboutIntroImg{
+  padding: 30px;
+  background-color: var(--primary-color);
+}
+
+.OurApproach{
+   background: none;
+   padding-top: 0;
+}
+.OurApproach .container>.row{
+ flex-direction: column-reverse;
+}
+.ApproachText {
+  padding: 30px;
+  background-color: var(--primary-color);
+}
+
+.mapSection iframe {
+    margin-top: 30px;
 }
 
 }
@@ -185,6 +220,15 @@
     min-height: 95px;
 }
 
+.contactInfo {
+    padding: 12px;
+}
+.ApproachText {
+    padding: 12px;
+}
+.formPart {
+  padding: 20px;
+}
 
 }
 
