@@ -14,47 +14,23 @@
 @media (max-width: 1199.98px) {
 
   .aboutIntro{
-  background: linear-gradient( to right,#ffffffb0 57%, #f71c52 45%  ) center/ cover;
+  background: linear-gradient( to right,#ffffffb0 57%, var(--primary-color) 45%  ) center/ cover;
 }
 
 .OurApproach{
-   background: linear-gradient( to right,#f71c52 57%, #ffffffb0 45%  ) center/ cover;
+   background: linear-gradient( to right,var(--primary-color) 57%, #ffffffb0 45%  ) center/ cover;
 }
 
+.serviceIntro{
+  background: url('../image/ConsultancybannerImage.webp') -300px/cover no-repeat;
+}
+.workingStepBox:nth-child(1)::after {
+display: none;
+}
 }
 
-@media (max-width: 1024.98px) {
-  /* #ca1.owl-carousel .item1 {
-  background: linear-gradient(#0000008c, #0000008c) 0 0 / cover,
-    url("../image/BannerMOB1.webp") center/cover no-repeat;
-}
-#ca1.owl-carousel .item2 {
-  background: linear-gradient(#0000008c, #0000008c) 0 0 / cover,
-    url("../image/BannerMOB2.webp") center/cover no-repeat;
-}
-#ca1.owl-carousel .item3 {
-  background: linear-gradient(#0000008c, #0000008c) 0 0 / cover,
-    url("../image/BannerMOB3.webp") center/cover no-repeat;
-} */
 
-}
 
-@media screen and (device-width: 1024px) and (device-height: 600px) and (orientation: landscape) {
-  /* Styles for Google Nest Hub in landscape */
- /* #ca1.owl-carousel .item1 {
-  background: linear-gradient(#0000008c, #0000008c) 0 0 / cover,
-    url("../image/Banner1.webp") center/cover no-repeat;
-}
-#ca1.owl-carousel .item2 {
-  background: linear-gradient(#0000008c, #0000008c) 0 0 / cover,
-    url("../image/Banner2.webp") center/cover no-repeat;
-}
-#ca1.owl-carousel .item3 {
-  background: linear-gradient(#0000008c, #0000008c) 0 0 / cover,
-    url("../image/Banner3.webp") center/cover no-repeat;
-} */
-
-}
 
 
 
@@ -117,6 +93,25 @@
 .mapSection iframe {
     margin-top: 30px;
 }
+
+.bigPadding{
+   padding: 70px 0;
+}
+
+.serviceIntro{
+  background: var(--lightBg);
+}
+.serviceIntro .container>.row{
+  row-gap: 30px;
+}
+
+.iconHedContent:nth-child(2)::after {
+display: none;
+}
+.iconHedContent:nth-child(3)::after {
+display: none;
+}
+
 
 }
 @media (max-width: 767.98px) {

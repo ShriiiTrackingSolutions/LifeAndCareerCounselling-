@@ -764,6 +764,9 @@ color: var(--primary-color);
 .NewBanner.contactPage0{
   background: linear-gradient( to right,#ffffffb0 20%, #ffffffb0 45%  ) center/ cover, url("../image/ContactBanner.webp") center/cover no-repeat;
 }
+.NewBanner.careerPage0{
+  background: linear-gradient( to right,#ffffffb0 20%, #ffffffb0 45%  ) center/ cover, url("../image/CareerConsultancyBanner.webp") center/cover no-repeat;
+}
 
 .NewBanner .display-2{
   display: table;
@@ -786,7 +789,7 @@ color: var(--primary-color);
 
 /* about Intro section start */
 .aboutIntro{
-  background: linear-gradient( to right,#ffffffb0 50%, #f71c52 45%  ) center/ cover;
+  background: linear-gradient( to right,#ffffffb0 50%, var(--primary-color) 45%  ) center/ cover;
 }
 .aboutIntro .container>.row{
   align-items: center;
@@ -796,7 +799,7 @@ color: var(--primary-color);
 
 /* Our Approach section start */
 .OurApproach{
-   background: linear-gradient( to right,#f71c52 50%, #ffffffb0 45%  ) center/ cover;
+   background: linear-gradient( to right, var(--primary-color) 50%, #ffffffb0 45%  ) center/ cover;
 }
 
 .OurApproach .container>.row{
@@ -837,8 +840,8 @@ row-gap: 24px;
 }
 .whyChooseCard .fifthH{
   margin-top: 16px;
-  color: var(--black);
-  font-weight: 500;
+  font-weight: 300;
+  margin-bottom: 18px;
 }
 /* Why Choose Empower Consultation end */
 
@@ -970,3 +973,108 @@ row-gap: 24px;
 }
 
 /* map section end */
+
+
+
+.serviceIntro{
+  background: url('../image/ConsultancybannerImage.webp') center/cover no-repeat;
+}
+
+
+
+/* working steps section start */
+.workingSteps{
+  background:linear-gradient( to right,#0000007a 20%, #0000007a 45%  ) center/ cover,
+    url("../image/ThreeSteps.webp") center/cover no-repeat;
+}
+.workingSteps .therdH{
+  font-weight: 500;
+}
+.workingSteps .therdH span{
+  font-weight: 700;
+}
+
+.iconHedContent{
+  padding: 40px 20px ;
+  position: relative;
+  text-align: center;
+  background-color: #ff5b84;
+  color: #ffffff;
+}
+
+.workingStepBox::after{
+    content: "";
+    position: absolute;
+    top: 15px;
+    right: -14px;
+    border: 7px solid transparent;
+    border-left-color: var(--black) ;
+    z-index: 1;
+}
+
+.iconHedContent:nth-child(2)::after{
+    content: "";
+    position: absolute;
+    top: 15px;
+    right: -14px;
+    border: 7px solid transparent;
+    border-left-color: #ff5b84 ;
+    z-index: 1;
+}
+
+
+
+.iconHedContent:nth-child(3)::after{
+  content: "";
+  position: absolute;
+  top: 15px;
+  right: -14px;
+  border: 7px solid transparent;
+  border-left-color: var(--primary-color) ;
+  z-index: 1;
+}
+
+.workingStepBox{
+  padding: 40px 20px ;
+  position: relative;
+  background-color: var(--black);
+  color: #ffffff;
+}
+.iconHedContent p{
+  margin-bottom: 0;
+  font-size: 14px;
+}
+.iconHedContent .iconCenter{
+  height: 64PX;
+  width: 64PX;
+  margin: auto;
+}
+.iconHedDesc{
+margin-top: 10px;
+}
+.iconHedContent:nth-child(3){
+background-color: var(--primary-color);
+}
+.iconHedContent:nth-child(4){
+  background-color: var(--secondary-color);
+  }
+/* working steps section end */
+
+/* Psychometric Assessments Section start */
+.psychometricAssessments{
+  color: #ffffff;
+  background-color: var(--primary-color);
+  text-align: center;
+}
+.psychometricAssessments .display-2 span{
+  color: var(--black);
+}
+.psychometricCards img{
+ width: 80px;
+}
+.psychometricCards .fourthH{
+  margin-top: 16px;
+  color: var(--black);
+  font-weight: 400;
+}
+/* Psychometric Assessments Section end */

@@ -52,6 +52,9 @@ function loadHeaderFooter(callback) {
                     </a>
                     <ul class="dropdownList">
                       <li class="navLi"><a href="careerConsultancy.html" class="navLink">Career Consultancy</a></li> 
+                      <li class="navLi"><a href="lifePurposeDiscovery.html" class="navLink">Life Purpose Discovery</a></li> 
+                      <li class="navLi"><a href="interviewPreparation.html" class="navLink">Interview Preparation</a></li> 
+                      <li class="navLi"><a href="workLifeBalance.html" class="navLink">Work-Life Balance</a></li> 
                       </ul>
                       </li>
 
